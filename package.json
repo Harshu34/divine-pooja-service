@@ -1,0 +1,31 @@
+{
+  "name": "divine-pooja-services",
+  "version": "1.0.0",
+  "description": "Modern Pooja Booking Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "pooja",
+    "booking",
+    "astrology",
+    "spiritual"
+  ],
+  "author": "Divine Pooja Services",
+  "license": "MIT"
+}
